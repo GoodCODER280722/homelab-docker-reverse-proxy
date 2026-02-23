@@ -28,3 +28,16 @@ Nginx Proxy Manager (reverse proxy)
 |  - Portainer container            |
 |  - WebTest container              |
 -------------------------------------
+
+## Monitoring
+
+Uptime Kuma deployed as internal monitoring dashboard
+
+Accessible at:
+-http://status.home
+
+Monitors:
+-npm.home
+-portainer.home
+-webtest.home
+-status.home
