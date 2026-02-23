@@ -1,0 +1,9 @@
+version "3"
+
+services:
+  webtest:
+    image: nginx:latest
+    container_name: webtest
+    restart: unless-stopped
+    ports:
+      - "8080:80"
